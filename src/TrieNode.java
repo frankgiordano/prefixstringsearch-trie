@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * This class implements a Trie data structure for usage of prefix string
+ * This class implements a trie data structure for usage of prefix string
  * searching of a word dictionary. 
  */
 public class TrieNode {

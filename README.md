@@ -1,12 +1,7 @@
 # prefixstringsearch-trie
+
 prefix string search of a word dictionary using a trie structure
 
-/*
- * Using Trie data structure for prefix search
- * 
- * implemented a traditional trie structure 
- * for the following test, add all words into a trie (dictionary) and specify 
- * a prefix string to search for all the words containing the
- * prefix. 
- * 
- */
+Find a word after providing a list of words to search from. Word search is performed by providing a set of prefix characters.
+
+This program implements a traditional trie data structure for prefix search.
