@@ -1,5 +1,6 @@
 # prefixstringsearch-trie
 
-Find a word after providing a list of words to search from. Word search is performed by providing a set of prefix characters.
+Search for words from a word dictionary with prefix characters. This mimics a type ahead feature you commonly see in UI applications and in word processors (when showing results for spell checks
+errors).
 
 This program implements a traditional trie data structure for prefix search.
