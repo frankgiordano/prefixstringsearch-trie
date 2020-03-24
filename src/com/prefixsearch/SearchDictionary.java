@@ -46,7 +46,6 @@ public class SearchDictionary {
             buildDictionary();
         }
         return dictionary.getWords(prefix).toString();
-
     }
 
     public static void main(String[] args) throws IOException {
