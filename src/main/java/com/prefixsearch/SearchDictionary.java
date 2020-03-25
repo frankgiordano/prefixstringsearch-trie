@@ -28,7 +28,6 @@ public class SearchDictionary {
                 words.append(line);
                 words.append(" ");
             }
-
         } catch (IOException e) {
             System.out.print("Error reading given input. Error message = " + e.getMessage());
             System.exit(-1);
