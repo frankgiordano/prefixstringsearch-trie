@@ -130,7 +130,7 @@ public class TrieNode {
      * When this method is called, the "this" Node is pointing to the last character
      * of the prefix string. From this Node, look at all its children nodes (array)
      * for branches of other patterns that complete the word with the prefix and
-     * return a List of those words
+     * return a list of those words.
      */
     public List<String> getWords() {
         TrieNode t = this;
