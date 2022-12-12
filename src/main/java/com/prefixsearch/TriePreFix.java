@@ -32,7 +32,7 @@ public class TriePreFix {
             if (lastNode == null)
                 return new ArrayList<String>();
         }
-        
+
         return lastNode.getWords();
     }
 

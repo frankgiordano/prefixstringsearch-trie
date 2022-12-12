@@ -5,11 +5,11 @@ import java.util.List;
 
 /*
  * This class implements a trie data structure for usage of prefix string
- * searching of a word dictionary. 
+ * searching of a word dictionary.
  */
 public class TrieNode {
 
-    private static final int ALPH_SIZE = 26;
+    private static final int ALPHABET_SIZE = 26;
     private static final int BUFFER_SIZE = 1024;
     private TrieNode[] children;
     private TrieNode parent; // parent allows to backtrack nodes to form the word
@@ -18,7 +18,7 @@ public class TrieNode {
     private boolean leaf;
 
     public TrieNode() {
-        this.setChildren(new TrieNode[ALPH_SIZE]);
+        this.setChildren(new TrieNode[ALPHABET_SIZE]);
         this.setWord(false);
         // no character here as such leaf = true
         // this is used for checking while looping through the parent
@@ -136,12 +136,12 @@ public class TrieNode {
         TrieNode t = this;
         List<String> words = new ArrayList<String>();
 
-        for (int i = 0; i < ALPH_SIZE; i++) {
+        for (int i = 0; i < ALPHABET_SIZE; i++) {
             if (t.children[i] != null) {
                 words.addAll(t.getChildren()[i].FindAndRetrieveWords());
             }
         }
-        
+
         return words;
     }
 
